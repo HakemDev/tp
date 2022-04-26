@@ -27,14 +27,14 @@ public class HamzaRest {
     //pour tous les produits
     @GetMapping("/products")
     public List<Product> affichage(){
-        System.out.println("hhhhhhhhhhh");
+        System.out.println("Test reussi");
         return hamzaService.findAll();
     }
 
     @DeleteMapping("/produit/delete/{id_produit}")
     public String deleteByid(@PathVariable int id_produit)
     {
-        System.out.println("fff");
+
         Product produit=hamzaService.findone(id_produit);
         if(produit == null )
         {
@@ -65,13 +65,13 @@ public class HamzaRest {
     //pour des cooperative precise
     @GetMapping("/products/{id_coperative}")
     public List<Product> ProductCoperative(@PathVariable int id_coperative ){
-        System.out.println("hhhhhhhhhhh");
+
         return hamzaService.findByIdcoperative(id_coperative);
     }
 
     @GetMapping("/produi/{idcoperative}/{id_produit}")
     public Product produit(@PathVariable int id_produit,@PathVariable int idcoperative){
-        // System.out.println("hhhhhhhhhhh");
+
         return hamzaService.findonecop(id_produit,idcoperative);
     }
 
