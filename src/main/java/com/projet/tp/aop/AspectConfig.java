@@ -10,8 +10,11 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.server.ResponseStatusException;
+
+
 
 
 
@@ -21,7 +24,7 @@ public class AspectConfig {
 
     /* Logging + Exception Handling + Time */
 
-    private Logger log = LoggerFactory.getLogger(AspectConfig.class);
+    private static Logger log = LoggerFactory.getLogger(AspectConfig.class);
 @Before(value= "execution(* com.projet.tp.rest.*.*(..))")
     public void logStatementBefore (JoinPoint exec)
     {
@@ -49,11 +52,11 @@ public class AspectConfig {
     @Around(value = "execution(* com.projet.tp.rest.*.*(..))")
     public Object timeTracker(ProceedingJoinPoint joinPoint) throws Throwable {
 
-        long stratTime=System.currentTimeMillis();
+        long startTime=System.currentTimeMillis();
 
         try {               //LOG TEMPS
             Object obj=joinPoint.proceed();
-            long timeTaken=System.currentTimeMillis()-stratTime;
+            long timeTaken=System.currentTimeMillis()-startTime;
             log.info("Time taken by {} is {}",joinPoint,timeTaken);
             return obj;
         }
@@ -63,4 +66,12 @@ public class AspectConfig {
             throw new ResponseStatusException(e.getHttpStatus(), e.getMessage());
         }
     }
+    public static void main(String[] args) {
+        //(same location as ClassOne.class)
+
+        log.info("Program started.... "); //Whenever you want to write something to the log text file use logger.info("Log Message")
+
+    }
+
+
 }
