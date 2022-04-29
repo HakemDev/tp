@@ -13,7 +13,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/user2")
 @RequiredArgsConstructor
-
 public class HamzaRest {
 
     private final HamzaService hamzaService;
