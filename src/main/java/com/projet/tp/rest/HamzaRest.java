@@ -13,25 +13,19 @@ import java.util.List;
 @RestController
 @RequestMapping("/user2")
 @RequiredArgsConstructor
-
 public class HamzaRest {
 
     private final HamzaService hamzaService;
     private final CooperativeService copservice;
-    @GetMapping("/list")
-    public List<Cooperative> listCooperative()
-    {
-        return copservice.getAllCooperatives();
 
-    }
     //pour tous les produits
-    @GetMapping("/products")
+    @GetMapping("/tous/products")
     public List<Product> affichage(){
         System.out.println("Test reussi");
         return hamzaService.findAll();
     }
 
-    @DeleteMapping("/produit/delete/{id_produit}")
+    @DeleteMapping("/cop/produit/delete/{id_produit}")
     public String deleteByid(@PathVariable int id_produit)
     {
 
@@ -43,39 +37,39 @@ public class HamzaRest {
         hamzaService.deleteById(id_produit);
         return "produit deleted";
     }
-    @PostMapping("/add/product")
+    @PostMapping("/cop/add/product")
     public String add(@RequestBody Product produit)
     {
         hamzaService.save(produit);
         return "done";
     }
-    @PutMapping("/update/product")
+    @PutMapping("/cop/update/product")
     public String update(@RequestBody Product produit)
     {
         hamzaService.save(produit);
         return "done";
     }
 
-    @GetMapping("/produi/{id_produit}")
+    @GetMapping("/tous/produi/{id_produit}")
     public Product produit(@PathVariable int id_produit){
         // System.out.println("hhhhhhhhhhh");
         return hamzaService.findone(id_produit);
     }
 
-    //pour des cooperative precise
-    @GetMapping("/products/{id_coperative}")
+    //pour des cooperative precisament
+    @GetMapping("/cop/products/{id_coperative}")
     public List<Product> ProductCoperative(@PathVariable int id_coperative ){
 
         return hamzaService.findByIdcoperative(id_coperative);
     }
 
-    @GetMapping("/produi/{idcoperative}/{id_produit}")
+    @GetMapping("/cop/produi/{idcoperative}/{id_produit}")
     public Product produit(@PathVariable int id_produit,@PathVariable int idcoperative){
 
         return hamzaService.findonecop(id_produit,idcoperative);
     }
 
-    @DeleteMapping("/cooperative/produit/delete/{idcoperative}/{id_produit}")
+    @DeleteMapping("/cop/cooperative/produit/delete/{idcoperative}/{id_produit}")
     public String deleteByidProduitandidCoperative(@PathVariable int id_produit,@PathVariable int idcoperative)
     {
         Product produit=hamzaService.findonecop(id_produit,idcoperative);

@@ -32,7 +32,7 @@ public class Cooperative {
     @Column(name = "login")
     private String login;
     @Column(name = "mdp")
-    private String mot_de_passe;
+    private String password;
     @OneToMany(fetch = FetchType.LAZY,
             cascade = {CascadeType.DETACH,CascadeType.PERSIST,
                     CascadeType.MERGE,CascadeType.REFRESH})
@@ -46,6 +46,21 @@ public class Cooperative {
     )
     private List<Role> roles;
 
+
+    public Cooperative(int id, String nom, String secteur, String region, String ville, String dateCreation, int n_patente, String description, String numero_de_tel, String email, String login, String mot_de_passe) {
+        this.id = id;
+        this.nom = nom;
+        this.secteur = secteur;
+        this.region = region;
+        this.ville = ville;
+        this.dateCreation = dateCreation;
+        N_patente = n_patente;
+        this.description = description;
+        this.numero_de_tel = numero_de_tel;
+        this.email = email;
+        this.login = login;
+        this.password = mot_de_passe;
+    }
 
     @Override
     public String toString() {
@@ -61,7 +76,9 @@ public class Cooperative {
                 ", numero_de_tel='" + numero_de_tel + '\'' +
                 ", email='" + email + '\'' +
                 ", login='" + login + '\'' +
-                ", mot_de_passe='" + mot_de_passe + '\'' +
+                ", mot_de_passe='" + password + '\'' +
+                ", produits=" + produits +
+                ", roles=" + roles +
                 '}';
     }
 
@@ -175,11 +192,11 @@ public class Cooperative {
         this.login = login;
     }
 
-    public String getMot_de_passe() {
-        return mot_de_passe;
+    public String getPassword() {
+        return password;
     }
 
-    public void setMot_de_passe(String mot_de_passe) {
-        this.mot_de_passe = mot_de_passe;
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

@@ -4,10 +4,7 @@ import com.projet.tp.dao.AdministrateurRepository;
 import com.projet.tp.dao.ComposantRepo;
 import com.projet.tp.dao.RegionRepo;
 import com.projet.tp.dao.SecteurRepo;
-import com.projet.tp.entity.Administarteur;
-import com.projet.tp.entity.Composant;
-import com.projet.tp.entity.Region;
-import com.projet.tp.entity.Secteur;
+import com.projet.tp.entity.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,6 +23,7 @@ public class AdministrateurServiceImpl implements AdministrateurService
     RegionRepo regionRepo;
     @Autowired
     SecteurRepo secteurRepo;
+
 
     @Override
     public Administarteur UpdateAdministrateur(Administarteur administarteur) {
@@ -64,5 +62,10 @@ public class AdministrateurServiceImpl implements AdministrateurService
     public void deleteSecteur(int id) {
         secteurRepo.deleteById((id));
 
+    }
+
+    @Override
+    public Administarteur getadminBYemail(String email) {
+        return repository.findByEmail(email);
     }
 }
