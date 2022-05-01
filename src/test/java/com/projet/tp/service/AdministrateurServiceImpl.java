@@ -4,16 +4,24 @@ import com.projet.tp.dao.AdministrateurRepository;
 import com.projet.tp.dao.ComposantRepo;
 import com.projet.tp.dao.RegionRepo;
 import com.projet.tp.dao.SecteurRepo;
-import com.projet.tp.entity.*;
+import com.projet.tp.entity.Administarteur;
+import com.projet.tp.entity.Composant;
+import com.projet.tp.entity.Region;
+import com.projet.tp.entity.Secteur;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 
 @Service
 @Transactional
+@RequiredArgsConstructor
+
 public class AdministrateurServiceImpl implements AdministrateurService
 {
+    private final PasswordEncoder passwordEncoder;
 
     @Autowired
     AdministrateurRepository repository;
@@ -24,9 +32,10 @@ public class AdministrateurServiceImpl implements AdministrateurService
     @Autowired
     SecteurRepo secteurRepo;
 
-
     @Override
     public Administarteur UpdateAdministrateur(Administarteur administarteur) {
+        administarteur.setPassword(passwordEncoder.encode(administarteur.getPassword()));
+        System.out.println("ddddddddddd");
         repository.save(administarteur);
         return administarteur;
     }
@@ -66,6 +75,6 @@ public class AdministrateurServiceImpl implements AdministrateurService
 
     @Override
     public Administarteur getadminBYemail(String email) {
-        return repository.findByEmail(email);
+        return null;
     }
 }

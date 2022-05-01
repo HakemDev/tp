@@ -3,51 +3,48 @@ package com.projet.tp.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "secteur")
-
+@Table(name ="secteur")
 public class Secteur {
+    public Secteur() {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
-    private int id;
-    @Column(name = "libelle")
-    private String libelle;
-
-    public int getId() {
-        return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public int getIdSecteur() {
+        return idSecteur;
+    }
+
+    public void setIdSecteur(int idSecteur) {
+        this.idSecteur = idSecteur;
     }
 
     public String getLibelle() {
         return libelle;
     }
-
+    @Override
+    public String toString() {
+        return "Secteur{" +
+                "idSecteur=" + idSecteur +
+                ", libelle='" + libelle + '\'' +
+                '}';
+    }
     public void setLibelle(String libelle) {
         this.libelle = libelle;
     }
 
-    @Override
-    public String toString() {
-        return "Categorie{" +
-                "id=" + id +
-                ", libelle='" + libelle + '\'' +
-                '}';
-    }
 
-    public Secteur(int id, String libelle) {
-        this.id = id;
+    public Secteur(int idSecteur, String libelle) {
+        this.idSecteur = idSecteur;
         this.libelle = libelle;
     }
 
-    public Secteur() {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    private int idSecteur;
+    @Column(name="libelle")
+    private String libelle;
 
-    }
 
-    public Secteur(String libelle) {
-        this.libelle = libelle;
-    }
+
+
 }

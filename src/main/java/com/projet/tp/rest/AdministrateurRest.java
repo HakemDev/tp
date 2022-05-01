@@ -1,9 +1,6 @@
 package com.projet.tp.rest;
 
-import com.projet.tp.entity.Administarteur;
-import com.projet.tp.entity.Composant;
-import com.projet.tp.entity.Region;
-import com.projet.tp.entity.Secteur;
+import com.projet.tp.entity.*;
 import com.projet.tp.service.AdministrateurService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -17,6 +14,13 @@ public class AdministrateurRest {
 
     @Autowired
     AdministrateurService service;
+
+    @GetMapping("/{email}")
+    public Administarteur listCooperative(@PathVariable String email)
+    {
+        return service.getadminBYemail(email);
+
+    }
 
     @PostMapping("/save")
     public Administarteur saveAdministrateur(@RequestBody Administarteur administarteur)

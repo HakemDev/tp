@@ -1,9 +1,6 @@
 package com.projet.tp.service;
 
-import com.projet.tp.entity.Administarteur;
-import com.projet.tp.entity.Composant;
-import com.projet.tp.entity.Region;
-import com.projet.tp.entity.Secteur;
+import com.projet.tp.entity.*;
 
 public interface AdministrateurService {
 
@@ -14,8 +11,5 @@ public interface AdministrateurService {
     public void deleteComposant(int id);
     public void deleteRegion(int id);
     public void deleteSecteur(int id);
-
-
-
-
+    public Administarteur getadminBYemail(String email);
 }

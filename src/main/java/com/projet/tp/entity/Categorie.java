@@ -4,22 +4,31 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "categorie")
+
 public class Categorie {
+
+
+    public Categorie(Long idCategorie,String libelle) {
+        this.idCategorie = idCategorie;
+        this.libelle = libelle;
+    }
+
+    public Categorie() {
+
+    }
+
+    public Long getIdCategorie() {
+        return idCategorie;
+    }
+
+    public void setIdCategorie(Long idCategorie) {
+        this.idCategorie = idCategorie;
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private int id;
-    @Column(name = "libelle")
-    private String libelle;
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
+    private Long idCategorie;
 
     public String getLibelle() {
         return libelle;
@@ -32,21 +41,11 @@ public class Categorie {
     @Override
     public String toString() {
         return "Categorie{" +
-                "id=" + id +
+                "idCategorie=" + idCategorie +
                 ", libelle='" + libelle + '\'' +
                 '}';
     }
 
-    public Categorie(int id, String libelle) {
-        this.id = id;
-        this.libelle = libelle;
-    }
-
-    public Categorie() {
-
-    }
-
-    public Categorie(String libelle) {
-        this.libelle = libelle;
-    }
+    @Column(name="libelle")
+    private String libelle;
 }

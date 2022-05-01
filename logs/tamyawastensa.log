@@ -1,0 +1,34 @@
+2022-04-28 21:19:58,922 INFO com.projet.tp.TpApplication [restartedMain] Starting TpApplication on DESKTOP-JGKCIHU with PID 13876 (C:\Users\USER\IdeaProjects\tp\target\classes started by USER in C:\Users\USER\IdeaProjects\tp)
+2022-04-28 21:19:58,922 INFO com.projet.tp.TpApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-04-28 21:20:40,596 INFO com.projet.tp.TpApplication [restartedMain] Started TpApplication in 43.785 seconds (JVM running for 51.329)
+2022-04-28 21:21:25,250 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-4] Executingexecution(List com.projet.tp.rest.HamzaRest.affichage())
+2022-04-28 21:21:26,102 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-4] Time taken by execution(List com.projet.tp.rest.HamzaRest.affichage()) is 853
+2022-04-28 21:21:26,102 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-4] Complete exceution of execution(List com.projet.tp.rest.HamzaRest.affichage())
+2022-04-28 21:40:22,285 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-8] Executingexecution(List com.projet.tp.rest.HamzaRest.affichage())
+2022-04-28 21:40:22,346 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-8] Time taken by execution(List com.projet.tp.rest.HamzaRest.affichage()) is 63
+2022-04-28 21:40:22,346 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-8] Complete exceution of execution(List com.projet.tp.rest.HamzaRest.affichage())
+2022-04-28 21:41:35,673 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-1] Executingexecution(ResponseEntity com.projet.tp.rest.SoufianeRest.findByIdS(Long))
+2022-04-28 21:41:36,250 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-1] Time taken by execution(ResponseEntity com.projet.tp.rest.SoufianeRest.findByIdS(Long)) is 577
+2022-04-28 21:41:36,250 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-1] Complete exceution of execution(ResponseEntity com.projet.tp.rest.SoufianeRest.findByIdS(Long))
+2022-04-28 21:43:23,383 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-7] Executingexecution(List com.projet.tp.rest.HamzaRest.affichage())
+2022-04-28 21:43:23,438 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-7] Time taken by execution(List com.projet.tp.rest.HamzaRest.affichage()) is 55
+2022-04-28 21:43:23,438 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-7] Complete exceution of execution(List com.projet.tp.rest.HamzaRest.affichage())
+2022-04-28 21:43:48,804 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-2] Executingexecution(List com.projet.tp.rest.HamzaRest.affichage())
+2022-04-28 21:43:48,863 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-2] Time taken by execution(List com.projet.tp.rest.HamzaRest.affichage()) is 59
+2022-04-28 21:43:48,863 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-2] Complete exceution of execution(List com.projet.tp.rest.HamzaRest.affichage())
+2022-04-28 21:47:54,640 INFO com.projet.tp.TpApplication [restartedMain] Starting TpApplication on DESKTOP-JGKCIHU with PID 15020 (C:\Users\USER\IdeaProjects\tp\target\classes started by USER in C:\Users\USER\IdeaProjects\tp)
+2022-04-28 21:47:54,656 DEBUG com.projet.tp.TpApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2022-04-28 21:47:54,659 INFO com.projet.tp.TpApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-04-28 21:48:35,338 INFO com.projet.tp.TpApplication [restartedMain] Started TpApplication in 42.717 seconds (JVM running for 50.012)
+2022-04-28 21:48:35,848 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-1] Executingexecution(List com.projet.tp.rest.HamzaRest.affichage())
+2022-04-28 21:48:38,166 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-1] Time taken by execution(List com.projet.tp.rest.HamzaRest.affichage()) is 2317
+2022-04-28 21:48:38,166 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-1] Complete exceution of execution(List com.projet.tp.rest.HamzaRest.affichage())
+2022-04-28 21:51:18,273 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-6] Executingexecution(List com.projet.tp.rest.HamzaRest.listCooperative())
+2022-04-28 21:51:19,241 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-6] Time taken by execution(List com.projet.tp.rest.HamzaRest.listCooperative()) is 968
+2022-04-28 21:51:19,241 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-6] Complete exceution of execution(List com.projet.tp.rest.HamzaRest.listCooperative())
+2022-04-28 21:52:15,561 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-8] Executingexecution(List com.projet.tp.rest.HamzaRest.affichage())
+2022-04-28 21:52:15,647 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-8] Time taken by execution(List com.projet.tp.rest.HamzaRest.affichage()) is 85
+2022-04-28 21:52:15,649 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-8] Complete exceution of execution(List com.projet.tp.rest.HamzaRest.affichage())
+2022-04-28 21:52:24,279 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-2] Executingexecution(List com.projet.tp.rest.HamzaRest.affichage())
+2022-04-28 21:52:24,473 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-2] Time taken by execution(List com.projet.tp.rest.HamzaRest.affichage()) is 194
+2022-04-28 21:52:24,474 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-2] Complete exceution of execution(List com.projet.tp.rest.HamzaRest.affichage())
