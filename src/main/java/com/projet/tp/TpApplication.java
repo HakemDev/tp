@@ -24,6 +24,7 @@ public class TpApplication {
 		return new BCryptPasswordEncoder();
 	}
 
+	/*
 	@Bean
 		//here we want add data to database when we load application
 	CommandLineRunner run(CooperativeService userService)
@@ -33,4 +34,6 @@ public class TpApplication {
 
 		};
 	}
+
+	 */
 }

@@ -43,7 +43,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests().antMatchers("/user3/booth/**").hasAnyAuthority("ROLE_CLIENT","ROLE_ADMIN");
         http.authorizeRequests().antMatchers("/user3/cooperativ/**").hasAnyAuthority("ROLE_CLIENT");
         http.authorizeRequests().antMatchers("/user2/cop/**").hasAnyAuthority("ROLE_COPERATIVE");
-        http.authorizeRequests().antMatchers("/cooperativ/**","/administrateur/**").hasAnyAuthority("ROLE_ADMIN");
+        http.authorizeRequests().antMatchers("/cooperativ/**","/administrateur/**","/user3/administrateur/**").hasAnyAuthority("ROLE_ADMIN");
         http.authorizeRequests().antMatchers("/cooperativ/coo/**").hasAnyAuthority("ROLE_COPERATIVE");
         http.authorizeRequests().anyRequest().authenticated();
         http.addFilter(new CustomAuthenticationFilter(authenticationManagerBean()));

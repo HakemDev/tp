@@ -18,12 +18,15 @@ public class HamzaServiceImpl implements HamzaService {
 
     private final ProductRep productRep;
 
+////////////////Partie produits
 
+    //afficher tpus les produits
     @Override
     public List<Product> findAll() {
         return productRep.findAll();
     }
 
+    //chercher un seule produit
     @Override
     public Product findone(int id) {
         Optional<Product> result=productRep.findById(id);
@@ -38,28 +41,32 @@ public class HamzaServiceImpl implements HamzaService {
         return produit;
     }
 
+    //Supprimer un produit
     @Override
     public void deleteById(int id_produit) {
         productRep.deleteById(id_produit);
     }
 
+    //ajouter ou modifier un produit
     @Override
     public void save(Product produit) {
-        System.out.println("haha");
         productRep.save(produit);
     }
 
+    //afficher les produits d'un coperative
     @Override
     public List<Product> findByIdcoperative(int id_coperative) {
         List<Product> produits=productRep.findByIdcoperative(id_coperative);
         return productRep.findByIdcoperative(id_coperative);
     }
 
+    //afficher un seule produit d'un seule coperative
     @Override
     public Product findonecop(int id_produit, int idcoperative) {
         return productRep.findByIdcoperativeAndId(idcoperative,id_produit);
     }
 
+    //Supprimer un produit precis d'une coperative precise
     @Override
     public void deleteByIdCoperative(int id_produit, int idcoperative) {
         productRep.deleteByIdcoperativeAndId(idcoperative,id_produit);

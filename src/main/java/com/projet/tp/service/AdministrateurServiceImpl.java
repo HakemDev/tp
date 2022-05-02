@@ -9,12 +9,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.ArrayList;
+import java.util.List;
 
 @Service
 @Transactional
 public class AdministrateurServiceImpl implements AdministrateurService
 {
-
     @Autowired
     AdministrateurRepository repository;
     @Autowired
@@ -49,23 +50,22 @@ public class AdministrateurServiceImpl implements AdministrateurService
     @Override
     public void deleteComposant(int id) {
         composantRepo.deleteById(id);
-
     }
 
     @Override
     public void deleteRegion(int id) {
         regionRepo.deleteById(id);
-
     }
 
     @Override
     public void deleteSecteur(int id) {
         secteurRepo.deleteById((id));
-
     }
 
     @Override
     public Administarteur getadminBYemail(String email) {
         return repository.findByEmail(email);
     }
+
+
 }

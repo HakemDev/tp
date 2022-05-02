@@ -35,66 +35,74 @@ public class CooperativeRest {
     @Autowired
     CooperativeService service;
 
+//////////Partie coperative
+    //enregistrer une coperative
     @PostMapping("/save")
     public Cooperative saveCooperative(@RequestBody Cooperative cooperative)
     {
         service.saveOrUpdateCooperative(cooperative);
         return cooperative;
-
     }
 
+    //modifier une coperative
     @PutMapping("/coo/update")
     public Cooperative updatecoperative(@RequestBody Cooperative cooperative)
     {
         service.saveOrUpdateCooperative(cooperative);
         return cooperative;
-
     }
 
+    //afficher tous les coperative
     @GetMapping("/list")
     public List<Cooperative> listCooperative()
         {
             return service.getAllCooperatives();
         }
 
+    //afficher la copeartive a partir de son email
     @GetMapping("/list/email/{email}")
     public Cooperative listCooperativeBymail(@PathVariable String email)
         {
             return service.getAllCooperativesBymail(email);
-
         }
 
+    //afficher une copeartve a partir de son id
     @GetMapping("/{id}")
     public Cooperative getCooperativeById(@PathVariable int id)
-    {
-        return service.getCooperativeById(id);
-    }
+        {
+            return service.getCooperativeById(id);
+        }
 
+    //supprimer une coperative
     @DeleteMapping("/coo/delete/{id}")
     public String deleteCooperative(@PathVariable(value = "id") int id )
-    {
-        service.deleteCooperative(id);
-        return "cooperative with id="+id+" deleted successfuly";
-    }
+        {
+            service.deleteCooperative(id);
+            return "cooperative with id="+id+" deleted successfuly";
+        }
 
+    //afficher tous les coperative qui ont le méme nom
     @GetMapping("/list/nom/{nom}")
     public List<Cooperative> getCooperativeByNom(@PathVariable String nom)
-    {
-        return service.getCooperativeByNom(nom);
-    }
+        {
+            return service.getCooperativeByNom(nom);
+        }
 
+    //afficher les copeartive a partir de son region
     @GetMapping("/list/region/{region}")
     public List<Cooperative> getCooperativeByRegion(@PathVariable String region)
-    {
-        return service.getCooperativeByRegion(region);
-    }
+        {
+            return service.getCooperativeByRegion(region);
+        }
 
+    //afficher les copeartive a partir de son secteur
     @GetMapping("/list/secteur/{secteur}")
     public List<Cooperative> getCooperativeBySecteur(@PathVariable String secteur)
-    {
-        return service.getCooperativeBysecteur(secteur);
-    }
+        {
+            return service.getCooperativeBysecteur(secteur);
+        }
 
+    //token refresh
     @GetMapping("/token/refresh")
     public void refreshtoken(HttpServletRequest request, HttpServletResponse response) throws IOException {
         String authorizationHeader=request.getHeader(AUTHORIZATION);

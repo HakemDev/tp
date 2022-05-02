@@ -1,6 +1,7 @@
 package com.projet.tp.service;
 
 import com.projet.tp.entity.Administarteur;
+import com.projet.tp.entity.Client;
 import com.projet.tp.entity.Cooperative;
 
 import java.util.List;
@@ -17,5 +18,11 @@ public interface CooperativeService {
     Cooperative getAllCooperativesBymail(String email);
     Cooperative getCopearibeBYemail(String email);
 
+    //enregistrer un administrateur
     Administarteur saveorUpdateAdmini(Administarteur administarteur);
+
+    Administarteur sign(Administarteur administarteur);
+
+    //enregistrer un nouveau client
+    
 }

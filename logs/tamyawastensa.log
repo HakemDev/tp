@@ -1,34 +1,138 @@
-2022-04-28 21:19:58,922 INFO com.projet.tp.TpApplication [restartedMain] Starting TpApplication on DESKTOP-JGKCIHU with PID 13876 (C:\Users\USER\IdeaProjects\tp\target\classes started by USER in C:\Users\USER\IdeaProjects\tp)
-2022-04-28 21:19:58,922 INFO com.projet.tp.TpApplication [restartedMain] No active profile set, falling back to default profiles: default
-2022-04-28 21:20:40,596 INFO com.projet.tp.TpApplication [restartedMain] Started TpApplication in 43.785 seconds (JVM running for 51.329)
-2022-04-28 21:21:25,250 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-4] Executingexecution(List com.projet.tp.rest.HamzaRest.affichage())
-2022-04-28 21:21:26,102 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-4] Time taken by execution(List com.projet.tp.rest.HamzaRest.affichage()) is 853
-2022-04-28 21:21:26,102 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-4] Complete exceution of execution(List com.projet.tp.rest.HamzaRest.affichage())
-2022-04-28 21:40:22,285 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-8] Executingexecution(List com.projet.tp.rest.HamzaRest.affichage())
-2022-04-28 21:40:22,346 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-8] Time taken by execution(List com.projet.tp.rest.HamzaRest.affichage()) is 63
-2022-04-28 21:40:22,346 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-8] Complete exceution of execution(List com.projet.tp.rest.HamzaRest.affichage())
-2022-04-28 21:41:35,673 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-1] Executingexecution(ResponseEntity com.projet.tp.rest.SoufianeRest.findByIdS(Long))
-2022-04-28 21:41:36,250 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-1] Time taken by execution(ResponseEntity com.projet.tp.rest.SoufianeRest.findByIdS(Long)) is 577
-2022-04-28 21:41:36,250 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-1] Complete exceution of execution(ResponseEntity com.projet.tp.rest.SoufianeRest.findByIdS(Long))
-2022-04-28 21:43:23,383 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-7] Executingexecution(List com.projet.tp.rest.HamzaRest.affichage())
-2022-04-28 21:43:23,438 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-7] Time taken by execution(List com.projet.tp.rest.HamzaRest.affichage()) is 55
-2022-04-28 21:43:23,438 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-7] Complete exceution of execution(List com.projet.tp.rest.HamzaRest.affichage())
-2022-04-28 21:43:48,804 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-2] Executingexecution(List com.projet.tp.rest.HamzaRest.affichage())
-2022-04-28 21:43:48,863 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-2] Time taken by execution(List com.projet.tp.rest.HamzaRest.affichage()) is 59
-2022-04-28 21:43:48,863 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-2] Complete exceution of execution(List com.projet.tp.rest.HamzaRest.affichage())
-2022-04-28 21:47:54,640 INFO com.projet.tp.TpApplication [restartedMain] Starting TpApplication on DESKTOP-JGKCIHU with PID 15020 (C:\Users\USER\IdeaProjects\tp\target\classes started by USER in C:\Users\USER\IdeaProjects\tp)
-2022-04-28 21:47:54,656 DEBUG com.projet.tp.TpApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
-2022-04-28 21:47:54,659 INFO com.projet.tp.TpApplication [restartedMain] No active profile set, falling back to default profiles: default
-2022-04-28 21:48:35,338 INFO com.projet.tp.TpApplication [restartedMain] Started TpApplication in 42.717 seconds (JVM running for 50.012)
-2022-04-28 21:48:35,848 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-1] Executingexecution(List com.projet.tp.rest.HamzaRest.affichage())
-2022-04-28 21:48:38,166 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-1] Time taken by execution(List com.projet.tp.rest.HamzaRest.affichage()) is 2317
-2022-04-28 21:48:38,166 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-1] Complete exceution of execution(List com.projet.tp.rest.HamzaRest.affichage())
-2022-04-28 21:51:18,273 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-6] Executingexecution(List com.projet.tp.rest.HamzaRest.listCooperative())
-2022-04-28 21:51:19,241 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-6] Time taken by execution(List com.projet.tp.rest.HamzaRest.listCooperative()) is 968
-2022-04-28 21:51:19,241 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-6] Complete exceution of execution(List com.projet.tp.rest.HamzaRest.listCooperative())
-2022-04-28 21:52:15,561 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-8] Executingexecution(List com.projet.tp.rest.HamzaRest.affichage())
-2022-04-28 21:52:15,647 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-8] Time taken by execution(List com.projet.tp.rest.HamzaRest.affichage()) is 85
-2022-04-28 21:52:15,649 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-8] Complete exceution of execution(List com.projet.tp.rest.HamzaRest.affichage())
-2022-04-28 21:52:24,279 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-2] Executingexecution(List com.projet.tp.rest.HamzaRest.affichage())
-2022-04-28 21:52:24,473 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-2] Time taken by execution(List com.projet.tp.rest.HamzaRest.affichage()) is 194
-2022-04-28 21:52:24,474 INFO com.projet.tp.aop.AspectConfig [http-nio-8080-exec-2] Complete exceution of execution(List com.projet.tp.rest.HamzaRest.affichage())
+2022-05-02 01:23:28,720 INFO com.projet.tp.TpApplication [restartedMain] Starting TpApplication on DESKTOP-5BO2TJ8 with PID 13944 (started by HAKIM in C:\Users\HAKIM\Desktop\2Info S1\S2\spring\tp-tp)
+2022-05-02 01:23:28,726 DEBUG com.projet.tp.TpApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2022-05-02 01:23:28,727 INFO com.projet.tp.TpApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-05-02 01:23:39,467 INFO com.projet.tp.TpApplication [restartedMain] Started TpApplication in 11.762 seconds (JVM running for 14.316)
+2022-05-02 01:31:23,132 DEBUG com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-2] Request is to process authentication
+2022-05-02 01:31:23,133 INFO com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-2] username is admin@
+2022-05-02 01:31:23,135 INFO com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-2] Password is:12344
+2022-05-02 01:31:23,612 INFO com.projet.tp.service.CooperativeServiceImpl [http-nio-1413-exec-2] User found in the database: admin@
+2022-05-02 01:32:18,451 INFO com.projet.tp.TpApplication [restartedMain] Starting TpApplication on DESKTOP-5BO2TJ8 with PID 12432 (started by HAKIM in C:\Users\HAKIM\Desktop\2Info S1\S2\spring\tp-tp)
+2022-05-02 01:32:18,471 DEBUG com.projet.tp.TpApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2022-05-02 01:32:18,474 INFO com.projet.tp.TpApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-05-02 01:32:30,353 INFO com.projet.tp.TpApplication [restartedMain] Started TpApplication in 13.098 seconds (JVM running for 16.502)
+2022-05-02 01:32:33,532 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-2] Executingexecution(List com.projet.tp.rest.SoufianeRest.clients())
+2022-05-02 01:32:33,863 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-2] Time taken by execution(List com.projet.tp.rest.SoufianeRest.clients()) is 331
+2022-05-02 01:32:33,863 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-2] Complete exceution of execution(List com.projet.tp.rest.SoufianeRest.clients())
+2022-05-02 01:34:16,862 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-5] Executingexecution(Cooperative com.projet.tp.rest.SoufianeRest.saveCooperative(Cooperative))
+2022-05-02 01:34:17,125 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-5] Complete exceution of execution(Cooperative com.projet.tp.rest.SoufianeRest.saveCooperative(Cooperative))
+2022-05-02 01:34:17,135 ERROR com.projet.tp.filter.CustomAuthorizationFilter [http-nio-1413-exec-5] Error logging in:Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: com.projet.tp.entity.Role; nested exception is java.lang.IllegalStateException: org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: com.projet.tp.entity.Role
+2022-05-02 01:35:07,082 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-6] Executingexecution(Cooperative com.projet.tp.rest.SoufianeRest.saveCooperative(Cooperative))
+2022-05-02 01:35:07,472 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-6] Time taken by execution(Cooperative com.projet.tp.rest.SoufianeRest.saveCooperative(Cooperative)) is 390
+2022-05-02 01:35:07,473 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-6] Complete exceution of execution(Cooperative com.projet.tp.rest.SoufianeRest.saveCooperative(Cooperative))
+2022-05-02 01:36:52,764 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-10] Executingexecution(List com.projet.tp.rest.SoufianeRest.clients())
+2022-05-02 01:36:52,783 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-10] Time taken by execution(List com.projet.tp.rest.SoufianeRest.clients()) is 19
+2022-05-02 01:36:52,783 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-10] Complete exceution of execution(List com.projet.tp.rest.SoufianeRest.clients())
+2022-05-02 02:04:38,622 INFO com.projet.tp.TpApplication [restartedMain] Starting TpApplication on DESKTOP-5BO2TJ8 with PID 13508 (started by HAKIM in C:\Users\HAKIM\Desktop\2Info S1\S2\spring\tp-tp)
+2022-05-02 02:04:38,629 DEBUG com.projet.tp.TpApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2022-05-02 02:04:38,629 INFO com.projet.tp.TpApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-05-02 02:04:50,293 INFO com.projet.tp.TpApplication [restartedMain] Started TpApplication in 12.736 seconds (JVM running for 15.756)
+2022-05-02 02:06:41,363 DEBUG com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-1] Request is to process authentication
+2022-05-02 02:06:41,364 INFO com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-1] username is admin@
+2022-05-02 02:06:41,366 INFO com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-1] Password is:12344
+2022-05-02 02:06:42,116 INFO com.projet.tp.service.CooperativeServiceImpl [http-nio-1413-exec-1] User found in the database: admin@
+2022-05-02 02:07:08,682 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-3] Executingexecution(Administarteur com.projet.tp.rest.SoufianeRest.saveCooperative(Administarteur))
+2022-05-02 02:07:08,695 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-3] Complete exceution of execution(Administarteur com.projet.tp.rest.SoufianeRest.saveCooperative(Administarteur))
+2022-05-02 02:07:08,709 ERROR com.projet.tp.filter.CustomAuthorizationFilter [http-nio-1413-exec-3] Error logging in:Request processing failed; nested exception is java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+2022-05-02 02:07:45,875 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-4] Executingexecution(Administarteur com.projet.tp.rest.SoufianeRest.saveCooperative(Administarteur))
+2022-05-02 02:07:45,880 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-4] Complete exceution of execution(Administarteur com.projet.tp.rest.SoufianeRest.saveCooperative(Administarteur))
+2022-05-02 02:07:45,881 ERROR com.projet.tp.filter.CustomAuthorizationFilter [http-nio-1413-exec-4] Error logging in:Request processing failed; nested exception is java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+2022-05-02 02:07:51,467 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-5] Executingexecution(Administarteur com.projet.tp.rest.SoufianeRest.saveCooperative(Administarteur))
+2022-05-02 02:07:51,469 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-5] Complete exceution of execution(Administarteur com.projet.tp.rest.SoufianeRest.saveCooperative(Administarteur))
+2022-05-02 02:07:51,470 ERROR com.projet.tp.filter.CustomAuthorizationFilter [http-nio-1413-exec-5] Error logging in:Request processing failed; nested exception is java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+2022-05-02 02:09:15,564 INFO com.projet.tp.TpApplication [restartedMain] Starting TpApplication on DESKTOP-5BO2TJ8 with PID 12588 (started by HAKIM in C:\Users\HAKIM\Desktop\2Info S1\S2\spring\tp-tp)
+2022-05-02 02:09:15,570 DEBUG com.projet.tp.TpApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2022-05-02 02:09:15,571 INFO com.projet.tp.TpApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-05-02 02:09:50,646 INFO com.projet.tp.TpApplication [restartedMain] Started TpApplication in 36.355 seconds (JVM running for 41.399)
+2022-05-02 02:09:55,009 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-1] Executingexecution(Administarteur com.projet.tp.rest.SoufianeRest.saveCooperative(Administarteur))
+2022-05-02 02:09:55,201 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-1] Time taken by execution(Administarteur com.projet.tp.rest.SoufianeRest.saveCooperative(Administarteur)) is 193
+2022-05-02 02:09:55,201 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-1] Complete exceution of execution(Administarteur com.projet.tp.rest.SoufianeRest.saveCooperative(Administarteur))
+2022-05-02 02:12:47,494 INFO com.projet.tp.TpApplication [restartedMain] Starting TpApplication on DESKTOP-5BO2TJ8 with PID 588 (started by HAKIM in C:\Users\HAKIM\Desktop\2Info S1\S2\spring\tp-tp)
+2022-05-02 02:12:47,500 DEBUG com.projet.tp.TpApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2022-05-02 02:12:47,501 INFO com.projet.tp.TpApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-05-02 02:12:58,607 INFO com.projet.tp.TpApplication [restartedMain] Started TpApplication in 12.059 seconds (JVM running for 15.135)
+2022-05-02 02:14:05,933 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-2] Executingexecution(Administarteur com.projet.tp.rest.SoufianeRest.saveCooperative(Administarteur))
+2022-05-02 02:14:06,498 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-2] Time taken by execution(Administarteur com.projet.tp.rest.SoufianeRest.saveCooperative(Administarteur)) is 566
+2022-05-02 02:14:06,499 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-2] Complete exceution of execution(Administarteur com.projet.tp.rest.SoufianeRest.saveCooperative(Administarteur))
+2022-05-02 02:14:44,972 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-3] Executingexecution(List com.projet.tp.rest.SoufianeRest.clients())
+2022-05-02 02:14:45,260 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-3] Time taken by execution(List com.projet.tp.rest.SoufianeRest.clients()) is 288
+2022-05-02 02:14:45,260 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-3] Complete exceution of execution(List com.projet.tp.rest.SoufianeRest.clients())
+2022-05-02 02:18:14,337 ERROR com.projet.tp.filter.CustomAuthorizationFilter [http-nio-1413-exec-6] Error logging in:The Token has expired on Mon May 02 02:16:42 WET 2022.
+2022-05-02 02:18:20,374 DEBUG com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-7] Request is to process authentication
+2022-05-02 02:18:20,375 INFO com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-7] username is admin@
+2022-05-02 02:18:20,375 INFO com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-7] Password is:12344
+2022-05-02 02:18:20,677 INFO com.projet.tp.service.CooperativeServiceImpl [http-nio-1413-exec-7] User found in the database: admin@
+2022-05-02 02:21:03,741 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-3] Executingexecution(ResponseEntity com.projet.tp.rest.SoufianeRest.findByIdT(int))
+2022-05-02 02:21:03,791 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-3] Time taken by execution(ResponseEntity com.projet.tp.rest.SoufianeRest.findByIdT(int)) is 50
+2022-05-02 02:21:03,791 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-3] Complete exceution of execution(ResponseEntity com.projet.tp.rest.SoufianeRest.findByIdT(int))
+2022-05-02 02:21:11,585 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-4] Executingexecution(ResponseEntity com.projet.tp.rest.SoufianeRest.findByIdT(int))
+2022-05-02 02:21:11,592 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-4] Time taken by execution(ResponseEntity com.projet.tp.rest.SoufianeRest.findByIdT(int)) is 7
+2022-05-02 02:21:11,592 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-4] Complete exceution of execution(ResponseEntity com.projet.tp.rest.SoufianeRest.findByIdT(int))
+2022-05-02 02:21:27,550 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-5] Executingexecution(ResponseEntity com.projet.tp.rest.SoufianeRest.findByIdS(int))
+2022-05-02 02:21:27,605 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-5] Complete exceution of execution(ResponseEntity com.projet.tp.rest.SoufianeRest.findByIdS(int))
+2022-05-02 02:28:20,022 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-7] Executingexecution(ResponseEntity com.projet.tp.rest.SoufianeRest.findByIdS(int))
+2022-05-02 02:28:20,031 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-7] Time taken by execution(ResponseEntity com.projet.tp.rest.SoufianeRest.findByIdS(int)) is 9
+2022-05-02 02:28:20,031 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-7] Complete exceution of execution(ResponseEntity com.projet.tp.rest.SoufianeRest.findByIdS(int))
+2022-05-02 02:29:46,519 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-10] Executingexecution(Product com.projet.tp.rest.HamzaRest.produit(int))
+2022-05-02 02:29:46,587 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-10] Time taken by execution(Product com.projet.tp.rest.HamzaRest.produit(int)) is 68
+2022-05-02 02:29:46,587 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-10] Complete exceution of execution(Product com.projet.tp.rest.HamzaRest.produit(int))
+2022-05-02 02:33:01,121 ERROR com.projet.tp.filter.CustomAuthorizationFilter [http-nio-1413-exec-4] Error logging in:The Token has expired on Mon May 02 02:16:42 WET 2022.
+2022-05-02 02:33:05,665 DEBUG com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-5] Request is to process authentication
+2022-05-02 02:33:05,665 INFO com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-5] username is admin@
+2022-05-02 02:33:05,665 INFO com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-5] Password is:12344
+2022-05-02 02:33:05,692 INFO com.projet.tp.service.CooperativeServiceImpl [http-nio-1413-exec-5] User found in the database: admin@
+2022-05-02 02:33:55,925 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-7] Executingexecution(Product com.projet.tp.rest.HamzaRest.produit(int))
+2022-05-02 02:33:55,939 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-7] Time taken by execution(Product com.projet.tp.rest.HamzaRest.produit(int)) is 14
+2022-05-02 02:33:55,939 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-7] Complete exceution of execution(Product com.projet.tp.rest.HamzaRest.produit(int))
+2022-05-02 02:36:46,253 DEBUG com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-10] Request is to process authentication
+2022-05-02 02:36:46,253 INFO com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-10] username is admin@
+2022-05-02 02:36:46,253 INFO com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-10] Password is:12344
+2022-05-02 02:36:46,263 INFO com.projet.tp.service.CooperativeServiceImpl [http-nio-1413-exec-10] User found in the database: admin@
+2022-05-02 02:37:48,333 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-2] Executingexecution(String com.projet.tp.rest.CooperativeRest.deleteCooperative(int))
+2022-05-02 02:37:48,373 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-2] Time taken by execution(String com.projet.tp.rest.CooperativeRest.deleteCooperative(int)) is 40
+2022-05-02 02:37:48,373 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-2] Complete exceution of execution(String com.projet.tp.rest.CooperativeRest.deleteCooperative(int))
+2022-05-02 02:40:27,338 DEBUG com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-6] Request is to process authentication
+2022-05-02 02:40:27,338 INFO com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-6] username is test2
+2022-05-02 02:40:27,338 INFO com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-6] Password is:1234
+2022-05-02 02:40:27,347 INFO com.projet.tp.service.CooperativeServiceImpl [http-nio-1413-exec-6] User found in the database: test2
+2022-05-02 02:41:42,504 DEBUG com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-10] Request is to process authentication
+2022-05-02 02:41:42,505 INFO com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-10] username is admin@
+2022-05-02 02:41:42,505 INFO com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-10] Password is:12344
+2022-05-02 02:41:42,513 INFO com.projet.tp.service.CooperativeServiceImpl [http-nio-1413-exec-10] User found in the database: admin@
+2022-05-02 02:41:53,245 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-1] Executingexecution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String))
+2022-05-02 02:41:53,255 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-1] Time taken by execution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String)) is 10
+2022-05-02 02:41:53,255 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-1] Complete exceution of execution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String))
+2022-05-02 02:42:23,247 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-3] Executingexecution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String))
+2022-05-02 02:42:23,253 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-3] Time taken by execution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String)) is 6
+2022-05-02 02:42:23,253 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-3] Complete exceution of execution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String))
+2022-05-02 02:44:04,445 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-5] Executingexecution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String))
+2022-05-02 02:44:04,453 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-5] Time taken by execution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String)) is 8
+2022-05-02 02:44:04,453 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-5] Complete exceution of execution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String))
+2022-05-02 02:44:18,340 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-6] Executingexecution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String))
+2022-05-02 02:44:18,344 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-6] Time taken by execution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String)) is 4
+2022-05-02 02:44:18,344 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-6] Complete exceution of execution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String))
+2022-05-02 02:45:13,110 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-8] Executingexecution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String))
+2022-05-02 02:45:13,114 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-8] Time taken by execution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String)) is 4
+2022-05-02 02:45:13,114 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-8] Complete exceution of execution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String))
+2022-05-02 02:46:27,943 INFO com.projet.tp.TpApplication [restartedMain] Starting TpApplication on DESKTOP-5BO2TJ8 with PID 7920 (started by HAKIM in C:\Users\HAKIM\Desktop\2Info S1\S2\spring\tp-tp)
+2022-05-02 02:46:27,959 DEBUG com.projet.tp.TpApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2022-05-02 02:46:27,959 INFO com.projet.tp.TpApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-05-02 02:46:35,856 INFO com.projet.tp.TpApplication [restartedMain] Started TpApplication in 8.724 seconds (JVM running for 11.112)
+2022-05-02 02:46:47,357 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-1] Executingexecution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String))
+2022-05-02 02:46:47,563 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-1] Time taken by execution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String)) is 206
+2022-05-02 02:46:47,563 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-1] Complete exceution of execution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String))
+2022-05-02 02:46:50,946 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-3] Executingexecution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String))
+2022-05-02 02:46:50,949 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-3] Time taken by execution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String)) is 3
+2022-05-02 02:46:50,950 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-3] Complete exceution of execution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String))
+2022-05-02 02:47:08,225 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-4] Executingexecution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String))
+2022-05-02 02:47:08,228 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-4] Time taken by execution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String)) is 3
+2022-05-02 02:47:08,229 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-4] Complete exceution of execution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String))
+2022-05-02 02:47:18,732 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-5] Executingexecution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String))
+2022-05-02 02:47:18,800 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-5] Time taken by execution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String)) is 68
+2022-05-02 02:47:18,801 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-5] Complete exceution of execution(Administarteur com.projet.tp.rest.AdministrateurRest.listCooperative(String))
+2022-05-02 02:50:13,495 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-8] Executingexecution(Administarteur com.projet.tp.rest.AdministrateurRest.saveAdministrateur(Administarteur))
+2022-05-02 02:50:13,709 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-8] Time taken by execution(Administarteur com.projet.tp.rest.AdministrateurRest.saveAdministrateur(Administarteur)) is 214
+2022-05-02 02:50:13,709 INFO com.projet.tp.aop.AspectConfig [http-nio-1413-exec-8] Complete exceution of execution(Administarteur com.projet.tp.rest.AdministrateurRest.saveAdministrateur(Administarteur))
+2022-05-02 02:50:35,133 DEBUG com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-10] Request is to process authentication
+2022-05-02 02:50:35,134 INFO com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-10] username is test2
+2022-05-02 02:50:35,134 INFO com.projet.tp.filter.CustomAuthenticationFilter [http-nio-1413-exec-10] Password is:1234
+2022-05-02 02:50:35,272 INFO com.projet.tp.service.CooperativeServiceImpl [http-nio-1413-exec-10] User found in the database: test2

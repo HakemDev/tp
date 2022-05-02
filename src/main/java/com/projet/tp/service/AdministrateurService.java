@@ -12,4 +12,5 @@ public interface AdministrateurService {
     public void deleteRegion(int id);
     public void deleteSecteur(int id);
     public Administarteur getadminBYemail(String email);
+
 }
