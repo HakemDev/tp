@@ -16,59 +16,65 @@ import java.util.List;
 public class HamzaRest {
 
     private final HamzaService hamzaService;
-    private final CooperativeService copservice;
 
-    //pour tous les produits
+////////////////Partie produits
+    //afficher tpus les produits
     @GetMapping("/tous/products")
     public List<Product> affichage(){
         System.out.println("Test reussi");
         return hamzaService.findAll();
     }
-
+    //Supprimer un produit
     @DeleteMapping("/cop/produit/delete/{id_produit}")
     public String deleteByid(@PathVariable int id_produit)
-    {
-
-        Product produit=hamzaService.findone(id_produit);
-        if(produit == null )
         {
-            throw new RuntimeException("produit not found");
+            Product produit=hamzaService.findone(id_produit);
+            if(produit == null )
+            {
+                throw new RuntimeException("produit not found");
+            }
+            hamzaService.deleteById(id_produit);
+            return "produit deleted";
         }
-        hamzaService.deleteById(id_produit);
-        return "produit deleted";
-    }
+
+    //ajouter un produits
     @PostMapping("/cop/add/product")
-    public String add(@RequestBody Product produit)
-    {
-        hamzaService.save(produit);
-        return "done";
-    }
+        public String add(@RequestBody Product produit)
+        {
+            hamzaService.save(produit);
+            return "produit est bien ajouté";
+        }
+
+    //Modifier un produit
     @PutMapping("/cop/update/product")
     public String update(@RequestBody Product produit)
     {
         hamzaService.save(produit);
-        return "done";
+        return "produit est bien modifiée";
     }
 
+    //afficher un produit
     @GetMapping("/tous/produi/{id_produit}")
-    public Product produit(@PathVariable int id_produit){
-        // System.out.println("hhhhhhhhhhh");
-        return hamzaService.findone(id_produit);
-    }
+    public Product produit(@PathVariable int id_produit)
+        {
+            return hamzaService.findone(id_produit);
+        }
 
-    //pour des cooperative precisament
+    //afficher les produits d'un coperative
     @GetMapping("/cop/products/{id_coperative}")
-    public List<Product> ProductCoperative(@PathVariable int id_coperative ){
+    public List<Product> ProductCoperative(@PathVariable int id_coperative )
+        {
+            return hamzaService.findByIdcoperative(id_coperative);
+        }
 
-        return hamzaService.findByIdcoperative(id_coperative);
-    }
-
+    //afficher un seule produit d'un seule coperative
     @GetMapping("/cop/produi/{idcoperative}/{id_produit}")
-    public Product produit(@PathVariable int id_produit,@PathVariable int idcoperative){
+    public Product produit(@PathVariable int id_produit,@PathVariable int idcoperative)
+        {
+            return hamzaService.findonecop(id_produit,idcoperative);
+        }
 
-        return hamzaService.findonecop(id_produit,idcoperative);
-    }
-
+    //Supprimer un produit precis d'une coperative precise
     @DeleteMapping("/cop/cooperative/produit/delete/{idcoperative}/{id_produit}")
     public String deleteByidProduitandidCoperative(@PathVariable int id_produit,@PathVariable int idcoperative)
     {
